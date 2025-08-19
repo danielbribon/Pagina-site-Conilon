@@ -1,0 +1,32 @@
+body {
+    background-color: #006439;
+}
+
+.Img_logo img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+}
+
+/* Alinha os ícones lado a lado */
+.contact-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+/* Aplica o mesmo tamanho para todas as imagens */
+.contact-options img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+.contact-options img:hover {
+    transform: scale(1.1);
+}
