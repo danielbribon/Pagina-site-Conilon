@@ -6,18 +6,19 @@ body {
     display: block;
     margin: auto;
     max-width: 300px;
+    margin-top: 50px;
 }
 
-/* Alinha os ícones lado a lado */
+/* Icon alignment */
 .contact-options {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-top: 80px;
+    margin-top: 75px;
 }
 
-/* Aplica o mesmo tamanho para todas as imagens */
+/* Image size standard */
 .contact-options img {
     width: 50px;
     height: 50px;
@@ -26,7 +27,13 @@ body {
     cursor: pointer;
 }
 
-/* Efeito ao passar o mouse */
+/* Effect when hovering the cursor over images */
 .contact-options img:hover {
     transform: scale(1.1);
+}
+
+.Text-above-icons{
+    text-align: center;
+    color: #ffffff;
+   
 }
